@@ -88,6 +88,10 @@ ul {
     transform: translateX(0);
 }
 
+#navbar {
+    position: relative;
+    z-index: 999;
+}
 
 /* ANIMATIONS */
 
@@ -161,6 +165,7 @@ ul {
     margin-top: 24px;
     border-radius: 8px;
     animation: bounce .6s ease-in-out;
+    width: 90%;
 }
 
 .menu--open .menu__backdrop {
@@ -209,6 +214,7 @@ ul {
 .nav__container {
     height: 80px;
     padding: 24px 24px;
+    position: relative;
 }
 
 .nav__brand {
@@ -271,6 +277,7 @@ ul {
 
 #landing .container {
     padding: 96px 0;
+    z-index: 1;
 }
 
 .landing__img {
